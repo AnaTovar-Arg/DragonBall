@@ -11,8 +11,19 @@ let container = document.getElementById("container")
     getCharacters().then (characters =>{
         characters.forEach(element => {
             container.innerHTML+=`
-            <img src ="${element.image}">
-            <h3> ${element.name} </h3>
+
+           <div class="image" style="width: 18rem;">
+                <img src="${element.image}" class="image" alt="image characters">
+            <div class="name">
+                <h5 class="card-name">${element.name}</h5>
+           </div>
+
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"> ki=${element.ki}</li>
+    <li class="list-group-item">totalKi=${element.maxKi}/li>
+    <li class="list-group-item">affiliation=${element.affiliation}</li>
+  </ul>
+</div>
 
             `
         });
