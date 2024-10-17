@@ -15,7 +15,7 @@ async function getPlanets(){
            <div class="image" style="width: 18rem;">
                 <img src="${element.image}" class="image" alt="image characters">
             <div class="name">
-                <h5 class="card-name">${element.name}</h5>
+                <h3 class="card-name">${element.name}</h3>
            </div>
 
          <ul class="list-group list-group-objects">

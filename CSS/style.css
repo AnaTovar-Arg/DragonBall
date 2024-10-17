@@ -1,28 +1,10 @@
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background-color: rgba(2, 46, 241, 0.9); 
-    border-radius: 8px;
-}
 
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(44, 44, 44);
-    background-size: cover;
-    
-}
-
-.card-img-top-planet:hover,
-.card-img-top-planet:hover{
-    transform: translateY(-50px) scale(1.1);
-   
-    transition: all 0.4s ease; 
-    
-}
+div id= "container"  {
+    background-color: blue;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    font-family: arial;
+    color: white;
+    }
