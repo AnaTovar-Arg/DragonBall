@@ -16,14 +16,15 @@ let container = document.getElementById("container")
                 <img src="${element.image}" class="image" alt="image characters">
             <div class="name">
                 <h5 class="card-name">${element.name}</h5>
+                <h7 class="card-name">${element.race}</h7>
            </div>
 
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item"> ki=${element.ki}</li>
-    <li class="list-group-item">totalKi=${element.maxKi}/li>
-    <li class="list-group-item">affiliation=${element.affiliation}</li>
-  </ul>
-</div>
+         <ul class="list-group list-group-objects">
+            <li class="list-group-ki"> ki=${element.ki}</li>
+            <li class="list-group-maxKi"> totalKi=${element.maxKi}</li>
+            <li class="list-group-affiliation"> affiliation=${element.affiliation}</li>
+        </ul>
+            </div>
 
             `
         });
