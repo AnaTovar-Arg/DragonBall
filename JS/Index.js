@@ -13,8 +13,8 @@ characters.forEach(element => {
   container.innerHTML+=`
 
 
-  <div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
+    <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
     <div class="col-md-4">
       <img src="${element.image}" class="img-fluid rounded-start" alt="...">
     </div>
