@@ -17,9 +17,7 @@ async function getPlanets(){
             <div class="name">
                 <h2 class="card-name">${element.name}</h2>
            </div>
-
          <ul class="list-group list-group-objects">
-            <li class="list-group-isDestroyed"> Is destroyed?  ${element.isDestroyed}</li>
             <li class="list-group-description"> ${element.description}</li>
         </ul>
             </div>
